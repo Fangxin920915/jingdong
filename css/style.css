@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dd,input,tetxarea{ margin:0; padding:0;}
+body{ background:#fff; font-family:arial,"Microsoft YaHei","宋体"; color:#666;}
+ul{ list-style:none;}
+img,input{ border:none;}
+a{ text-decoration:none;}
+.clearfix:after{ /*content:"200B"; height:0; font-size:0; */content:""; display:block; clear:both;}
+.clearfix{ *zoom:1;}
+i{ font-style:normal;}
+
+.header{ border-bottom:2px solid #b1191a;}
+.header .top{ height:30px; background:#f1f1f1;}
+.header .top .top_inner{ width:1210px; margin:0 auto;}
+.header .top_inner .address{ float:left; font:12px/30px "宋体"; color:#666; height:30px;}
+.header .top_inner .address span{ font:12px/30px consolas; padding-left:9px;}
+.header .top_inner .menu{ float:right;}
+.header .top_inner .menu li{ float:left; line-height:30px; height:30px;}
+.header .top_inner .menu li a{ font:12px/30px "宋体"; color:#666;padding:0 10px; vertical-align:top; display:inline-block;/*转行块是为了不让左浮的mobile跑出a的范围*/}
+.header .top_inner .menu .line{ width:1px; height:12px; background:#ddd; margin-top:9px;}
+.header .top_inner .menu li .changecolor{ color:#c81623;}
+.header .top_inner .menu li .login{ padding-right:0;}
+.header .top_inner .menu li span{ font:12px/30px consolas; padding-left:10px;}
+.header .top_inner .menu li a .mobile{ display:inline-block; width:15px; height:20px; background:url(../images/jd2015img.png) no-repeat; margin:5px 3px 0 0; float:left;/*左浮动是为了顶端对齐*/}
+.header .top_inner .menu li:hover a{ color:#c81623;}
+.header .top_inner .menu .bg:hover{ background:#fff;}
+.header .top_inner .menu li:hover .mobile{ background:url(../images/jd2015img.png) no-repeat 0 -25px;}
+.header .mid{ width:1210px; margin:0 auto;}
+.header .mid .logo{ float:left; padding:20px 92px 0 0;}
+.header .mid .search{ float:left; padding-top:25px;}
+.header .mid .search .sea{ width:450px; height:32px; border:2px solid #b61d1d; font-size:13px; font-family:"Microsoft YaHei"; line-height:32px; color:#666; padding-left:4px; box-sizing:content-box; vertical-align:top;}
+.header .mid .search .sub{ width:80px; height:36px; background:#b61d1d; font-size:16px; font-family:"Microsoft YaHei"; line-height:36px; color:#fff; text-align:center;}
+.header .mid .tags{ width:538px; height:28px; overflow:hidden;}
+.header .mid .tags a{ font:12px/28px "宋体"; color:#666; margin-right:11px;}
+.header .mid .tags a:hover{color:#c81623;}
+.header .mid .tags .active{ color:#c81623;}
+.header .mid .buy{ float:right; width:139px; height:34px; background:#f9f9f9 url(../images/jd2015img.png) no-repeat 18px -49px; border:1px solid #dfdfdf; margin:25px 65px 0 0; line-height:34px; position:relative;}
+.header .mid .buy a{ font-size:12px; font-family:"宋体"; color:#666; margin-left:44px; }
+.header .mid .buy a:hover{ color:#c81623;}
+.header .mid .buy i{ font-size:15px; font-family:consolas; color:#999; float:right; margin-right:11px;}
+.header .mid .buy .number{  height:14px; border-radius:6px 6px 6px 0;  background:#c81623; font-size:12px; color:#fff; line-height:14px; /*text-align:center; */padding:0 4px 0 5px; position:absolute; right:19px; top:-4px; }
+.header .bot{ width:1210px; margin:0 auto; padding-top:11px;}
+.header .bot .list{ float:left; width:200px; height:44px; background:#b1191a; font:15px/44px "Microsoft YaHei"; color:#fff; padding-left:10px;}
+.header .bot ul{ float:left;}
+.header .bot ul li{ float:left; font:16px/44px "Microsoft YaHei";  padding:0 20px;}
+.header .bot ul li a{color:#333; }
+.header .bot ul li a:hover{ color:#c81623;}
+
+.page1 .inner{ width:1210px; margin:0 auto;}
+.page1 .inner .nav_list{ width:209px; height:466px; background:#c81623; border-left:1px solid #b61d1d; float:left; /*position:relative; z-index:2;*/}
+.page1 .inner .nav_list li{ font-size:14px; line-height:31px; height:31px; color:#fff; padding-left:10px; position:relative;}
+.page1 .inner .nav_list li:hover{ background:#f7f7f7;}
+.page1 .inner .nav_list li:hover a{ color:#c81623;}
+.page1 .inner .nav_list li:hover i{color:#c81623; }
+.page1 .inner .nav_list li h3{ font-weight:normal; width:172px; height:31px; overflow:hidden; font-size:14px;/*h3自带字体大小，所以在h3改字体大小*/ }
+.page1 .inner .nav_list li h3 a{ color:#fff;}
+.page1 .inner .nav_list li i{ font-family:consolas; position:absolute; right:13px; top:0; }
+
+.page1 .inner .wrap{ float:left; position:relative;}
+.page1 .inner .wrap .popup{ width:1000px; min-height:465px; border:1px solid #c81623; border-left:none; background:#f7f7f7; position:absolute; left:209px; top:-1px; z-index:4; }
+.wrap .popup .section{ height:465px;}
+.wrap .popup .section .left{ float:left; width:705px; padding:20px 0 0 20px;}
+.wrap .popup .section .left .brand{font-size:0; width:705px; height:24px; overflow:hidden; }
+.wrap .popup .section .left .brand a{ display:inline-block; height:24px; line-height:24px; font-size:12px; color:#fff; padding:0 31px 0 8px; background:#7c7171; margin-right:10px; position:relative; }
+.wrap .popup .section .left .brand .last{ margin-right:0;}
+.wrap .popup .section .left .brand a:hover{background:#c81623;}
+.wrap .popup .section .left .brand a:hover i{background:#b1191a; }
+.wrap .popup .section .left .brand .active{ background:#c81623;}
+.wrap .popup .section .left .brand i{ display:inline-block; width:23px; height:23px; background:#5c5251; font-size:14px; font-family:consolas; position:absolute; right:0; top:1px; text-align:center;}
+.wrap .popup .section .left .brand .active i{ background:#b1191a; }
+.wrap .popup .section .left .menu{ padding-top:6px;}
+.wrap .popup .section .left .menu dl{ padding-top:10px;}
+.wrap .popup .section .left .menu dt{ float:left; width:55px; padding-right:29px;text-align:right; line-height:21px; height:21px; position:relative;}
+.wrap .popup .section .left .menu dt a{ font-size:12px; font-weight:bold; color:#666; }
+.wrap .popup .section .left .menu dt a:hover{ color:#c81623;}
+.wrap .popup .section .left .menu dt i{ font-size:14px; font-weight:normal; font-family:consolas; position:absolute; top:0; right:17px;}
+.wrap .popup .section .left .menu dt a:hover i{ color:#c81623;}
+.wrap .popup .section .left .menu dd{ float:left; width:621px; padding-bottom:2px; border-bottom:1px solid #f2f2f2;}
+.wrap .popup .section .left .menu dd a{ display:block; float:left; font-size:12px; line-height:16px; height:16px; color:#666; padding:0 8px; border-left:1px solid #e9e9e9; margin-bottom:8px;}
+.wrap .popup .section .left .menu dd a:hover{ color:#c81623;}
+.wrap .popup .section .right{ float:right; width:168px; padding:20px 20px 0 0;}
+.wrap .popup .section .right ul{ font-size:0; }
+.wrap .popup .section .right ul li{ display:inline-block; width:83px; height:35px; overflow:hidden; margin:0 0 1px 1px; }
+.wrap .popup .section .right .philips{ margin-top:9px; width:168px; height:134px; overflow:hidden;}
+.wrap .popup .section .right .household{ margin-top:1px; width:168px; height:134px; overflow:hidden;}
+
+
+
+
+
+
+
+.footer{ text-align: center;}
+.footer ul{ display: inline-block;}
+.footer ul li{ float:left; font-size:12px; line-height:36px; height:36px; padding-top:11px;}
+.footer ul li a{ color:#666;}
+.footer ul li a:hover{ color:#c81623;}
+.footer ul li span{ padding:0 10px;}
+.footer p{ font-size:12px; line-height:20px; color:#666; padding-bottom:9px;}
+.footer p span{ display:inline-block; width:18px; height:20px; background:url("../images/56a0a994Nf1b662dc.png") no-repeat;}
+.footer .icon{ font-size:0; padding-bottom:32px;}
+.footer .icon a{ margin-right:13px;}
+.footer .icon .nomargin{margin-right:0;}
+/*.building{ position:fixed; left:30px; bottom:120px;}*/
+/*.building li{text-align:center; line-height:30px;border-bottom:1px dotted #333; position:relative;}*/
+/*.building li span{font-size:12px; color:#666; }*/
+/*.building li a{width:30px; height:30px;font-size:12px; color:#fff; background:#c81623;position:absolute; left:0; top:0;display:none;}*/
+/*.building li:hover a{display:block; }*/
+.LocationFloorList{ position:fixed; top:100px; left:40%; margin-left:-520px; display:none}
+.LocationFloorList li{ height:30px; line-height:30px; width:30px; font-size:12px; text-align:center; border-bottom:1px dashed #ccc; cursor:pointer;}
+.LocationFloorList li b{ font-weight:normal}
+.LocationFloorList li span{ display:none; font-size:12px;}
+.LocationFloorList li.ac{ color:#fff; background:red}
+.LocationFloorList li.ac b{ display:none;}
+.LocationFloorList li.ac span{ display:inline}
+
+
+
+.side{ position:fixed; right:0; bottom:0;}
+.side ul li{width:35px;height:35px; position:relative;}
+.side ul li a{width:35px;height:35px; display:block; background:#7a6e6e url("../images/toolbars.png") -87px -175px;border-radius: 5px 0 0 5px; position:relative;z-index:2;}
+.side ul li span{ width:60px; height:35px; text-align:center; font-size:12px; line-height:35px; color:#fff; background:#c81623;border-radius: 5px 0 0 5px; position:absolute; left:0; top:0;  transition:all 0.4s;}
+.side ul li:hover span{ display:block; left:-60px;}
+.side ul li:hover a{ border-radius:0;background-color:#c81623;}
+.side ul .no2 a{ background-position:-49px 0px;}
+.side ul .no3 a{ background-position:-49px -50px;}
+.side ul .no4 a{ background-position:-49px -100px;}
+.side ul .no5 a{ background-position:-48px -250px;}
+.side ul .no6 a{ background-position:-48px -300px}
+.side ul .no7 a{ background:#c81623;font-size: 12px; text-align: center; color: #fff;}
+.side ul .no7:hover a{ border-radius:5px 0 0 5px;}
+
+
+
+
+
+
+

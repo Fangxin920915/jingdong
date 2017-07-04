@@ -1,0 +1,55 @@
+.clearfix{clear:both;}
+.main{width:1210px;margin:0 auto;padding-top:5px;}
+.main .mainLeft{float:left;width:352px;}
+.main .mainLeft #mainLeft_top{width:350px;height:350px;border:1px solid #ccc;position:relative;}
+.main .mainLeft #mainLeft_top img{width:100%;height:100%}
+
+
+.main .mainLeft #mainLeft_top span{width:150px;height:150px;background:pink;opacity:0.5;cursor:move;position:absolute;left:0;top:0;display:none;}
+.main .mainLeft .mainLeft_mid{padding-top:23px;}
+.main .mainLeft .mainLeft_mid a{display:inline-block;width:50px;height:50px;margin-left:10px;border:2px solid #ccc;}
+.main .mainLeft .mainLeft_mid .vv{border-color: red;}
+.main .mainLeft .mainLeft_mid a img{width:100%;height:100%;}
+.main .mainLeft .mainLeft_bot .active{float:right;}
+.main .mainMid{float:left;margin-left:30px;}
+
+.main  #box2{width:450px;height:450px;position:absolute;left:800px;top:180px;overflow:hidden;border:1px solid #ccc;display:none;}
+
+.main #box2 img{width:1050px;height:1050px;position:absolute;}
+.main #box2 .da{display:block;}
+
+
+.main .mainMid .mainMid_top{}
+.main .mainMid .mainMid_top img{width:591px;height:282px;}
+#box3{width:592px;}
+#one{width:592px;}
+#one h4{float:left;font-size:20px;color:#c81620;}
+#one ul{width:450px;float:left;margin-left:30px;}
+#one ul li{width:152px;height:42px;float:left;border:2px solid #ccc;text-align:center;line-height:42px;margin:0 20px 2px 0;cursor:pointer;}
+#one ul .bg{border-color:red;}
+#left{width:51px;height:44px;border:1px solid #ccc;float:left;}
+#two{padding-top:20px;}
+#num{width:32px;height:44px;text-align:center;line-height:44px;float:left;}
+#btn{float:left;width:18px;height:44px;cursor:pointer;}
+#btn1,#btn2{width:18px;height:22px;border-left:1px solid #ccc;background:#f1f1f1;text-align:center;line-height:22px;}
+#right{width:144px;height:46px;background:red;color:#fff;text-align:center;line-height:46px;float:left;margin-left:5px;cursor:pointer;}
+.mainRight{float:left;}
+.mainRight img{width:220px;}
+
+
+
+.gun{width:1210px;margin:0 auto;}
+
+.gun .tab{width:500px;}
+.gun .tab ul{height:31px;}
+.gun .tab ul li{float:left;line-height:30px;height:30px;width:80px;border:1px solid #f60;text-align:center;margin-right:5px;}
+.gun .tab ul li a{  color: #f00;}
+.gun .tab ul #pp a{  color: #ffccdd;}
+
+
+.gun .tab .cont{width:1210px;height:200px;margin-top:10px;}
+.gun .tab .cont div ul{margin-left:80px;}
+.gun .tab .cont div ul li{width:200px;height:200px;margin-right:10px;border:none;}
+.gun .tab .cont div ul li img{width:100%;height:100%;}
+.hide{display:none;}
+.ac{background:#ccc;}
